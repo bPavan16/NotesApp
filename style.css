@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+
+}
+
+body::-webkit-scrollbar {
+    /* display: none; */
+}
+
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    /* background-color: aquamarine; */
+    background-image: url('https://i.pinimg.com/originals/5b/aa/94/5baa94ba7303f0282410729f363a012f.jpg');
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.note {
+    width: 400px;
+    height: 400px;
+    background-color: azure;
+    margin: 15px;
+    margin-top: 55px;
+}
+
+.tool {
+    width: 100%;
+    background-color: rgb(69, 69, 88);
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+    border: 2px solid black;
+
+}
+
+.tool i {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.note textarea {
+    border: solid 2px black;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 20px;
+    resize: none;
+}
+
+#addNote {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
