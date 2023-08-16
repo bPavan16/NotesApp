@@ -66,9 +66,4 @@ const addNote = (text = "") => {
     });
   }
 
-  if (LSnotes === null || LSnotes.length === 0) {
-    localStorage.removeItem("notes");
-  } else {
-    addNote();
-  }
 })();
